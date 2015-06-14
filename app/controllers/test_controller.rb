@@ -1,8 +1,13 @@
 class TestController < ApplicationController
 
   after_action :clean
-
+ 
   def index
+    
+    # React::JSX.transformer_class = SlimJsx
+    
+    # puts SlimJsx.new 
+    
 
   end
 
